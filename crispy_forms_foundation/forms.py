@@ -3,7 +3,7 @@ from __future__ import unicode_literals, absolute_import
 from copy import deepcopy
 
 from django import forms
-from django.core.urlresolvers import reverse, NoReverseMatch
+from django.urls import reverse, NoReverseMatch
 from django.utils.translation import ugettext_lazy as _
 
 from crispy_forms.helper import FormHelper
